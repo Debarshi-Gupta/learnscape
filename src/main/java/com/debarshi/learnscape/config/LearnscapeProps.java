@@ -10,9 +10,9 @@ import org.springframework.validation.annotation.Validated;
 import java.util.List;
 import java.util.Map;
 
-@Component("eazySchoolProps")
+@Component("learnscapeProps")
 @Data
-@ConfigurationProperties(prefix = "eazyschool")
+@ConfigurationProperties(prefix = "learnscape")
 @Validated
 public class LearnscapeProps {
 

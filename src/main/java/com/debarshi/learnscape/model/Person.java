@@ -18,6 +18,7 @@ import java.util.Set;
 @Getter
 @Setter
 @Entity
+@Table(name = "person")
 @FieldsValueMatch.List({
         @FieldsValueMatch(
                 field = "pwd",
