@@ -1,14 +1,12 @@
 package com.debarshi.learnscape.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 @Data
 @Entity
+@Table(name = "roles")
 public class Role extends BaseEntity {
 
     @Id

@@ -24,7 +24,7 @@ public class LearnscapeClass extends BaseEntity {
     @Size(min=3, message="Name must be at least 3 characters long")
     private String name;
 
-    @OneToMany(mappedBy = "eazyClass", fetch = FetchType.LAZY,
+    @OneToMany(mappedBy = "learnscapeClass", fetch = FetchType.LAZY,
             cascade = CascadeType.PERSIST,targetEntity = Person.class)
     private Set<Person> persons;
 
