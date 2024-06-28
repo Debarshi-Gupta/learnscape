@@ -8412,6 +8412,8 @@ fieldset:disabled .btn {
 
 .rounded-circle {
   border-radius: 50% !important;
+  height: 125px;
+  width: 50px;
 }
 
 .rounded-pill {
@@ -20203,7 +20205,7 @@ p.count-text {
 }
 
 .w3l-index4 .clients-slider li.anim1 {
-  -webkit-animation: cycle 15s linear infinite;
+  -webkit-animation: cycle 4s linear infinite;
   animation: cycle 15s linear infinite;
 }
 

@@ -91,25 +91,25 @@ public class StartRunner implements ApplicationRunner {
 //
 //        personRepository.save(person);
 
-        Person person = new Person();
-        person.setName("ADMIN");
-        person.setEmail("admin@learnscape.com");
-        person.setMobileNumber("3443434343");
-        person.setPwd(passwordEncoder.encode("12345678"));
-
-        Role role = roleRepository.getByRoleName("ADMIN");
-        if (role == null) {
-            role = new Role();
-            role.setRoleName("ADMIN");
-            role.setCreatedAt(LocalDateTime.now());
-            role.setCreatedBy("DBA");
-            role = roleRepository.save(role);
-        }
-
-        person.setRole(role);
-        person.setCreatedAt(LocalDateTime.now());
-        person.setCreatedBy("Database Admin");
-
-        personRepository.save(person);
+//        Person person = new Person();
+//        person.setName("ADMIN");
+//        person.setEmail("admin@learnscape.com");
+//        person.setMobileNumber("3443434343");
+//        person.setPwd(passwordEncoder.encode("12345678"));
+//
+//        Role role = roleRepository.getByRoleName("ADMIN");
+//        if (role == null) {
+//            role = new Role();
+//            role.setRoleName("ADMIN");
+//            role.setCreatedAt(LocalDateTime.now());
+//            role.setCreatedBy("DBA");
+//            role = roleRepository.save(role);
+//        }
+//
+//        person.setRole(role);
+//        person.setCreatedAt(LocalDateTime.now());
+//        person.setCreatedBy("Database Admin");
+//
+//        personRepository.save(person);
     }
 }
