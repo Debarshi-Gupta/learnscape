@@ -9,6 +9,8 @@ import lombok.Data;
 public class Holiday extends BaseEntity {
 
     @Id
+    private int id;
+
     private String day;
 
     private String reason;
