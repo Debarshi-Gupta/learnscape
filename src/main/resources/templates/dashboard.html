@@ -39,7 +39,7 @@
     <div class="container py-md-1 py-1">
         <div class="title-main text-center mx-auto mb-md-1 mb-1" style="max-width:500px;">
             <h3 class="title-style" th:text="${'Welcome - ' + username}"></h3>
-            <p class="" th:text="${'You logged in as - ' + roles}"></p>
+            <p class="" th:text="${'You logged in as - ' + #strings.substring(roles, 6, roles.length() - 1)}"></p>
             <p class="" th:if="${!#strings.isEmpty(enrolledClass)}" th:text="${'Your assigned class is - [' + enrolledClass+']'}"></p>
         </div>
         
