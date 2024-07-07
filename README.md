@@ -15,6 +15,7 @@ First, clone the repository to your local machine using the following command:
 ```bash
 git clone https://github.com/yourusername/Learnscape.git
 cd Learnscape
+```
 
 ### Step 2: Install Maven
 Ensure you have Maven installed. You can download Maven from the official website and follow the installation instructions for your operating system.
@@ -27,11 +28,13 @@ mvn -version
 Navigate to the root directory of the project and run the following command to build the project:
 ```bash
 mvn clean install
+```
 
 ### Step 4: Set Up the MYSQL Database
 Open your MySQL client and create a new database named learnscape:
 ```bash
 CREATE DATABASE learnscape;
+```
 
 ### Step 5: Update Database Credentials
 Open the src/main/resources/application.properties file and update the database credentials to match your MySQL configuration:
@@ -39,14 +42,17 @@ Open the src/main/resources/application.properties file and update the database 
 spring.datasource.url=jdbc:mysql://localhost:3306/learnscape
 spring.datasource.username=your_username
 spring.datasource.password=your_password
+```
 
 ### Step 6: Run the Application
 Start the Spring Boot application by running:
 ```bash
 mvn spring-boot:run
+```
 
 ### Step 6: Access the Application
 Open your web browser and navigate to:
 ```bash
 http://localhost:8090
+```
 
