@@ -21,6 +21,7 @@ Ensure you have Maven installed. You can download Maven from the official websit
 To verify Maven installation, run:
 ```bash
 mvn -version
+```
 
 ### Step 3: Build the Project
 Navigate to the root directory of the project and run the following command to build the project:
