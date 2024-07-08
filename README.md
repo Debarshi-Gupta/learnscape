@@ -7,8 +7,8 @@ https://github.com/Debarshi-Gupta/learnscape/assets/85623275/457a195c-39ba-4155-
 ## Project Snapshots
 
 <p>
-  <img src="https://github.com/Debarshi-Gupta/learnscape/assets/85623275/bb7bd169-ded4-4bb8-9147-3f7e8174e6c5" width="50%" />
-  <img src="https://github.com/Debarshi-Gupta/learnscape/assets/85623275/8e7e284d-4d63-4fb4-a3ed-26cf2c7b3caa" width="50%" />
+  <img src="https://github.com/Debarshi-Gupta/learnscape/assets/85623275/bb7bd169-ded4-4bb8-9147-3f7e8174e6c5" width="45%" />
+  <img src="https://github.com/Debarshi-Gupta/learnscape/assets/85623275/8e7e284d-4d63-4fb4-a3ed-26cf2c7b3caa" width="45%" />
 </p>
 
 ## Project Description
