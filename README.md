@@ -1,9 +1,12 @@
 # Learnscape
 
-## Showcase Video
+## Showcase - Video
 
 https://github.com/Debarshi-Gupta/learnscape/assets/85623275/457a195c-39ba-4155-b206-bdd29ce83706
 
+## Project Snapshots
+
+![image](https://github.com/Debarshi-Gupta/learnscape/assets/85623275/bb7bd169-ded4-4bb8-9147-3f7e8174e6c5) ![image](https://github.com/Debarshi-Gupta/learnscape/assets/85623275/8e7e284d-4d63-4fb4-a3ed-26cf2c7b3caa)
 
 ## Project Description
 Learnscape is a dynamic web application designed to revolutionize school management by providing seamless user and admin login systems. Built with Spring Boot and Thymeleaf, Learnscape offers a range of features to enhance the educational experience for young students. Learnscape is a comprehensive school management system that includes functionalities for user registration, user login, admin login, and various sections like Home, About Us, Contact, Courses, and Login. This project is designed to help schools manage their operations more efficiently and provide a better user experience for students and administrators.
