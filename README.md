@@ -2,10 +2,7 @@
 
 ## Showcase - Video
 
-<video width="560" height="315" controls>
-  <source src="https://github.com/Debarshi-Gupta/learnscape/assets/85623275/457a195c-39ba-4155-b206-bdd29ce83706">
-  Your browser does not support the video tag.
-</video>
+https://github.com/Debarshi-Gupta/learnscape/assets/85623275/457a195c-39ba-4155-b206-bdd29ce83706
 
 ## Project Snapshots
 
