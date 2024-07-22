@@ -19,7 +19,7 @@ Learnscape is a dynamic web application designed to revolutionize school managem
 ### Step 1: Clone the Repository
 First, clone the repository to your local machine using the following command:
 ```bash
-git clone https://github.com/yourusername/Learnscape.git
+git clone https://github.com/Debarshi-Gupta/learnscape.git
 cd Learnscape
 ```
 
